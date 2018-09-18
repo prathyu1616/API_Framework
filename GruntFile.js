@@ -3,10 +3,10 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         protractor: {
-            your_target: {   // Grunt requires at least one target to run so you can simply put 'all: {}' here too.
+            your_target: {   
                 options: {
-                    configFile: "conf.js", // Target-specific config file
-                    args: {} , // Target-specific arguments,
+                    configFile: "conf.js",
+                    args: {} ,
                     directConnect:true,
 
                 }
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 
         },
         clean: {
-            content: ["./logFile/logFile.log"]
+            content: ["./logFile/logFileTest.log"]
         },
     });
     grunt.loadNpmTasks('grunt-protractor-runner');
