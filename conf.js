@@ -8,7 +8,7 @@ exports.config = {
         }
     },
     framework: 'jasmine2',
-    specs: ['C:\\Users\\prathyusha.buram\\Desktop\\API_Framework\\test.js'],
+    specs: ['C:\\Users\\prathyusha.buram\\Desktop\\API_Framework\\test.js'], // remove dynamic paths
     directConnect:true,
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
